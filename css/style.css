@@ -1,0 +1,16 @@
+body {
+    width: 100vw;
+    text-align: center;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #afafb0, #90aec2, #53b3b9, #49b286, #85a63b);
+}
+
+#notFox {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+img {
+    border-radius: 10%;
+    margin-top: 25px;
+}
