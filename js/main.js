@@ -10,8 +10,10 @@ foxImg.addEventListener("click", function(evt){
 
 // Add event listener to #notFox
 // Listen for click and on a click:
-  // Get the element id and use it to create an Audio element!
-  // Play the audio element!
+  // make sure an image has been selected
+    // Get the element id and use it to create an Audio element!
+    // fix its volume
+    // Play the audio element!
 
 const notFoxImg = document.querySelector("#notFox")
 
