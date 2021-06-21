@@ -10,9 +10,10 @@ body {
 #notFox {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+	min-width: 100vw
 }
 
 img {
   border-radius: 10%;
-  margin: 25px 10px 0;
+  margin: 25px auto;
 }
